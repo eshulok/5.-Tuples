@@ -11,5 +11,8 @@ print("The 4th number in the Fibonacci sequence is %s" % fibonacci_seq[3])
 #The following line will give you an error if you try to run it 
 #fibonacci_seq[1] = 8
 
+#Trying to delete an item in the list will also give you an error 
+#del(fibonacci_seq[2])
+
 #Just like with lists, you can get the number of items in the tuple by using the len command
 print("Our tuple contains %s items" %len(fibonacci_seq))
